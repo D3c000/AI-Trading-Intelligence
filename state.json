@@ -162,6 +162,10 @@
     {
       "time": "2026-11-26T03:14:47.766615+00:00",
       "equity": 49.44525660409828
+    },
+    {
+      "time": "2026-11-26T04:26:56.886451+00:00",
+      "equity": 49.44525660409828
     }
   ],
   "day": "2026-11-26",
@@ -169,12 +173,12 @@
   "halted": false,
   "daily_halt": false,
   "marks": {
-    "BTC-USD": 60687.26953125,
-    "ETH-USD": 1696.22998046875,
-    "SOL-USD": 71.16999816894531,
-    "XRP-USD": 0.9567999839782715,
-    "DOGE-USD": 0.05674999952316284,
-    "AVAX-USD": 6.676000118255615,
+    "BTC-USD": 60987.69921875,
+    "ETH-USD": 1702.1400146484375,
+    "SOL-USD": 71.13999938964844,
+    "XRP-USD": 0.9581000208854675,
+    "DOGE-USD": 0.05688999965786934,
+    "AVAX-USD": 6.691999912261963,
     "NVDA": 148.1199951171875,
     "TSLA": 382.0799865722656,
     "AAPL": 354.92999267578125,
@@ -183,7 +187,7 @@
     "MSFT": 490.04998779296875
   },
   "equity": 49.44525660409828,
-  "updated": "2026-11-26T03:14:47.766615+00:00",
+  "updated": "2026-11-26T04:26:56.886451+00:00",
   "signals": [
     {
       "symbol": "NVDA",
@@ -409,16 +413,16 @@
     },
     {
       "symbol": "BTC-USD",
-      "price": 60687.26953125,
-      "timestamp": "2026-11-26T03:00:00+00:00",
+      "price": 60987.69921875,
+      "timestamp": "2026-11-26T04:00:00+00:00",
       "agents": {
         "Technical": {
           "vote": 1,
-          "detail": "10/40 bar averages: 60044.05/59518.45"
+          "detail": "10/40 bar averages: 60405.29/59541.40"
         },
         "Momentum": {
           "vote": 1,
-          "detail": "11-bar return 4.37%"
+          "detail": "11-bar return 2.47%"
         },
         "Quant": {
           "vote": 1,
@@ -426,7 +430,7 @@
         },
         "Risk": {
           "vote": 0,
-          "detail": "Hourly volatility 0.62%",
+          "detail": "Hourly volatility 0.61%",
           "pass": true
         },
         "Execution": {
@@ -446,24 +450,24 @@
     },
     {
       "symbol": "ETH-USD",
-      "price": 1696.22998046875,
-      "timestamp": "2026-11-26T03:00:00+00:00",
+      "price": 1702.1400146484375,
+      "timestamp": "2026-11-26T04:00:00+00:00",
       "agents": {
         "Technical": {
           "vote": 1,
-          "detail": "10/40 bar averages: 1684.40/1669.67"
+          "detail": "10/40 bar averages: 1691.88/1669.43"
         },
         "Momentum": {
-          "vote": 1,
-          "detail": "11-bar return 3.21%"
+          "vote": 0,
+          "detail": "11-bar return 1.48%"
         },
         "Quant": {
-          "vote": 1,
+          "vote": 0,
           "detail": "Momentum relative to recent volatility; heuristic, not a calibrated probability"
         },
         "Risk": {
           "vote": 0,
-          "detail": "Hourly volatility 0.63%",
+          "detail": "Hourly volatility 0.61%",
           "pass": true
         },
         "Execution": {
@@ -476,23 +480,23 @@
           "detail": "No verified news feed configured; abstains"
         }
       },
-      "score": 3,
+      "score": 1,
       "fresh": true,
       "eligible": true,
-      "decision": "BUY CANDIDATE"
+      "decision": "HOLD"
     },
     {
       "symbol": "SOL-USD",
-      "price": 71.16999816894531,
-      "timestamp": "2026-11-26T03:00:00+00:00",
+      "price": 71.13999938964844,
+      "timestamp": "2026-11-26T04:00:00+00:00",
       "agents": {
         "Technical": {
           "vote": 1,
-          "detail": "10/40 bar averages: 70.22/69.19"
+          "detail": "10/40 bar averages: 70.71/69.19"
         },
         "Momentum": {
           "vote": 1,
-          "detail": "11-bar return 5.69%"
+          "detail": "11-bar return 2.57%"
         },
         "Quant": {
           "vote": 1,
@@ -520,16 +524,16 @@
     },
     {
       "symbol": "XRP-USD",
-      "price": 0.9567999839782715,
-      "timestamp": "2026-11-26T03:00:00+00:00",
+      "price": 0.9581000208854675,
+      "timestamp": "2026-11-26T04:00:00+00:00",
       "agents": {
         "Technical": {
           "vote": 1,
-          "detail": "10/40 bar averages: 0.94/0.92"
+          "detail": "10/40 bar averages: 0.95/0.92"
         },
         "Momentum": {
           "vote": 1,
-          "detail": "11-bar return 5.91%"
+          "detail": "11-bar return 3.72%"
         },
         "Quant": {
           "vote": 1,
@@ -537,7 +541,7 @@
         },
         "Risk": {
           "vote": 0,
-          "detail": "Hourly volatility 0.71%",
+          "detail": "Hourly volatility 0.70%",
           "pass": true
         },
         "Execution": {
@@ -557,8 +561,8 @@
     },
     {
       "symbol": "DOGE-USD",
-      "price": 0.05674999952316284,
-      "timestamp": "2026-11-26T03:00:00+00:00",
+      "price": 0.05688999965786934,
+      "timestamp": "2026-11-26T04:00:00+00:00",
       "agents": {
         "Technical": {
           "vote": 1,
@@ -566,7 +570,7 @@
         },
         "Momentum": {
           "vote": 1,
-          "detail": "11-bar return 6.57%"
+          "detail": "11-bar return 3.72%"
         },
         "Quant": {
           "vote": 1,
@@ -574,7 +578,7 @@
         },
         "Risk": {
           "vote": 0,
-          "detail": "Hourly volatility 0.73%",
+          "detail": "Hourly volatility 0.72%",
           "pass": true
         },
         "Execution": {
@@ -594,16 +598,16 @@
     },
     {
       "symbol": "AVAX-USD",
-      "price": 6.676000118255615,
-      "timestamp": "2026-11-26T03:00:00+00:00",
+      "price": 6.691999912261963,
+      "timestamp": "2026-11-26T04:00:00+00:00",
       "agents": {
         "Technical": {
           "vote": 1,
-          "detail": "10/40 bar averages: 6.59/6.54"
+          "detail": "10/40 bar averages: 6.64/6.53"
         },
         "Momentum": {
           "vote": 1,
-          "detail": "11-bar return 4.97%"
+          "detail": "11-bar return 2.87%"
         },
         "Quant": {
           "vote": 1,
@@ -611,7 +615,7 @@
         },
         "Risk": {
           "vote": 0,
-          "detail": "Hourly volatility 0.76%",
+          "detail": "Hourly volatility 0.74%",
           "pass": true
         },
         "Execution": {
