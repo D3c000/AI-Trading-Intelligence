@@ -154,6 +154,10 @@
     {
       "time": "2026-11-26T00:02:24.936511+00:00",
       "equity": 49.44525660409828
+    },
+    {
+      "time": "2026-11-26T01:39:14.558178+00:00",
+      "equity": 49.44525660409828
     }
   ],
   "day": "2026-11-26",
@@ -161,12 +165,12 @@
   "halted": false,
   "daily_halt": false,
   "marks": {
-    "BTC-USD": 60351.1015625,
-    "ETH-USD": 1690.3399658203125,
-    "SOL-USD": 70.44999694824219,
-    "XRP-USD": 0.9369999766349792,
-    "DOGE-USD": 0.05601000040769577,
-    "AVAX-USD": 6.625,
+    "BTC-USD": 60602.48046875,
+    "ETH-USD": 1697.1800537109375,
+    "SOL-USD": 70.76000213623047,
+    "XRP-USD": 0.944599986076355,
+    "DOGE-USD": 0.05651000142097473,
+    "AVAX-USD": 6.660999774932861,
     "NVDA": 148.1199951171875,
     "TSLA": 382.0799865722656,
     "AAPL": 354.92999267578125,
@@ -175,20 +179,20 @@
     "MSFT": 490.04998779296875
   },
   "equity": 49.44525660409828,
-  "updated": "2026-11-26T00:02:24.936511+00:00",
+  "updated": "2026-11-26T01:39:14.558178+00:00",
   "signals": [
     {
       "symbol": "NVDA",
-      "price": 149.27000427246094,
+      "price": 149.2899932861328,
       "timestamp": "2026-11-25T20:30:00+00:00",
       "agents": {
         "Technical": {
           "vote": 0,
-          "detail": "10/40 bar averages: 148.36/149.93"
+          "detail": "10/40 bar averages: 148.37/149.93"
         },
         "Momentum": {
           "vote": -1,
-          "detail": "11-bar return -2.96%"
+          "detail": "11-bar return -2.95%"
         },
         "Quant": {
           "vote": 0,
@@ -290,16 +294,16 @@
     },
     {
       "symbol": "AMD",
-      "price": 406.7799987792969,
+      "price": 406.8349914550781,
       "timestamp": "2026-11-25T20:30:00+00:00",
       "agents": {
         "Technical": {
           "vote": 0,
-          "detail": "10/40 bar averages: 398.44/447.66"
+          "detail": "10/40 bar averages: 398.44/447.67"
         },
         "Momentum": {
           "vote": 0,
-          "detail": "11-bar return -1.28%"
+          "detail": "11-bar return -1.26%"
         },
         "Quant": {
           "vote": 0,
@@ -401,16 +405,16 @@
     },
     {
       "symbol": "BTC-USD",
-      "price": 60351.1015625,
-      "timestamp": "2026-11-26T00:00:00+00:00",
+      "price": 60602.48046875,
+      "timestamp": "2026-11-26T01:00:00+00:00",
       "agents": {
         "Technical": {
-          "vote": 0,
-          "detail": "10/40 bar averages: 59109.21/59480.26"
+          "vote": 1,
+          "detail": "10/40 bar averages: 59536.65/59483.66"
         },
         "Momentum": {
           "vote": 1,
-          "detail": "11-bar return 2.61%"
+          "detail": "11-bar return 3.30%"
         },
         "Quant": {
           "vote": 1,
@@ -431,23 +435,23 @@
           "detail": "No verified news feed configured; abstains"
         }
       },
-      "score": 2,
+      "score": 3,
       "fresh": true,
       "eligible": true,
-      "decision": "HOLD"
+      "decision": "BUY CANDIDATE"
     },
     {
       "symbol": "ETH-USD",
-      "price": 1690.3399658203125,
-      "timestamp": "2026-11-26T00:00:00+00:00",
+      "price": 1697.1800537109375,
+      "timestamp": "2026-11-26T01:00:00+00:00",
       "agents": {
         "Technical": {
-          "vote": 0,
-          "detail": "10/40 bar averages: 1662.28/1669.19"
+          "vote": 1,
+          "detail": "10/40 bar averages: 1673.79/1669.09"
         },
         "Momentum": {
           "vote": 1,
-          "detail": "11-bar return 2.68%"
+          "detail": "11-bar return 3.12%"
         },
         "Quant": {
           "vote": 1,
@@ -455,7 +459,7 @@
         },
         "Risk": {
           "vote": 0,
-          "detail": "Hourly volatility 0.63%",
+          "detail": "Hourly volatility 0.64%",
           "pass": true
         },
         "Execution": {
@@ -468,23 +472,23 @@
           "detail": "No verified news feed configured; abstains"
         }
       },
-      "score": 2,
+      "score": 3,
       "fresh": true,
       "eligible": true,
-      "decision": "HOLD"
+      "decision": "BUY CANDIDATE"
     },
     {
       "symbol": "SOL-USD",
-      "price": 70.44999694824219,
-      "timestamp": "2026-11-26T00:00:00+00:00",
+      "price": 70.76000213623047,
+      "timestamp": "2026-11-26T01:00:00+00:00",
       "agents": {
         "Technical": {
-          "vote": 0,
-          "detail": "10/40 bar averages: 68.75/69.21"
+          "vote": 1,
+          "detail": "10/40 bar averages: 69.47/69.17"
         },
         "Momentum": {
           "vote": 1,
-          "detail": "11-bar return 4.02%"
+          "detail": "11-bar return 4.38%"
         },
         "Quant": {
           "vote": 1,
@@ -505,23 +509,23 @@
           "detail": "No verified news feed configured; abstains"
         }
       },
-      "score": 2,
+      "score": 3,
       "fresh": true,
       "eligible": true,
-      "decision": "HOLD"
+      "decision": "BUY CANDIDATE"
     },
     {
       "symbol": "XRP-USD",
-      "price": 0.9369999766349792,
-      "timestamp": "2026-11-26T00:00:00+00:00",
+      "price": 0.944599986076355,
+      "timestamp": "2026-11-26T01:00:00+00:00",
       "agents": {
         "Technical": {
-          "vote": 0,
-          "detail": "10/40 bar averages: 0.92/0.92"
+          "vote": 1,
+          "detail": "10/40 bar averages: 0.93/0.92"
         },
         "Momentum": {
           "vote": 1,
-          "detail": "11-bar return 2.71%"
+          "detail": "11-bar return 4.16%"
         },
         "Quant": {
           "vote": 1,
@@ -529,7 +533,7 @@
         },
         "Risk": {
           "vote": 0,
-          "detail": "Hourly volatility 0.71%",
+          "detail": "Hourly volatility 0.70%",
           "pass": true
         },
         "Execution": {
@@ -542,23 +546,23 @@
           "detail": "No verified news feed configured; abstains"
         }
       },
-      "score": 2,
+      "score": 3,
       "fresh": true,
       "eligible": true,
-      "decision": "HOLD"
+      "decision": "BUY CANDIDATE"
     },
     {
       "symbol": "DOGE-USD",
-      "price": 0.05601000040769577,
-      "timestamp": "2026-11-26T00:00:00+00:00",
+      "price": 0.05651000142097473,
+      "timestamp": "2026-11-26T01:00:00+00:00",
       "agents": {
         "Technical": {
-          "vote": 0,
-          "detail": "10/40 bar averages: 0.05/0.05"
+          "vote": 1,
+          "detail": "10/40 bar averages: 0.06/0.05"
         },
         "Momentum": {
           "vote": 1,
-          "detail": "11-bar return 3.76%"
+          "detail": "11-bar return 5.43%"
         },
         "Quant": {
           "vote": 1,
@@ -566,7 +570,7 @@
         },
         "Risk": {
           "vote": 0,
-          "detail": "Hourly volatility 0.75%",
+          "detail": "Hourly volatility 0.74%",
           "pass": true
         },
         "Execution": {
@@ -579,23 +583,23 @@
           "detail": "No verified news feed configured; abstains"
         }
       },
-      "score": 2,
+      "score": 3,
       "fresh": true,
       "eligible": true,
-      "decision": "HOLD"
+      "decision": "BUY CANDIDATE"
     },
     {
       "symbol": "AVAX-USD",
-      "price": 6.625,
-      "timestamp": "2026-11-26T00:00:00+00:00",
+      "price": 6.660999774932861,
+      "timestamp": "2026-11-26T01:00:00+00:00",
       "agents": {
         "Technical": {
           "vote": 0,
-          "detail": "10/40 bar averages: 6.47/6.54"
+          "detail": "10/40 bar averages: 6.53/6.54"
         },
         "Momentum": {
           "vote": 1,
-          "detail": "11-bar return 2.63%"
+          "detail": "11-bar return 3.90%"
         },
         "Quant": {
           "vote": 1,
@@ -603,7 +607,7 @@
         },
         "Risk": {
           "vote": 0,
-          "detail": "Hourly volatility 0.77%",
+          "detail": "Hourly volatility 0.76%",
           "pass": true
         },
         "Execution": {
